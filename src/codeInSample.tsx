@@ -2,6 +2,7 @@ import * as React from "react";
 
 const MODULE_COMMON = "akmii-yeeoffice-common";
 const MODULE_BIZCHARTS = "bizcharts";
+const MODULE_MOMENT = "moment";
 
 const data = [
     { genre: 'Sports', sold: 275 },
@@ -63,6 +64,6 @@ export class CodeInApplication implements CodeInComp {
     }
 
     requiredModules() {
-        return [MODULE_BIZCHARTS];
+        return [MODULE_BIZCHARTS, MODULE_MOMENT];
     }
 }

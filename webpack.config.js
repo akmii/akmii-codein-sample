@@ -8,6 +8,9 @@ module.exports = {
     entry: {
         codeInSample: './src/codeInSample.tsx',
         codeInExecute: './src/codeInExecute.tsx',
+        dropdownSample: "./src/dropdownSample.tsx",
+        loadThird3D: "./src/loadThird3D.tsx",
+        loadThirdVideo: "./src/loadThirdVideo.tsx",
     },
     devtool: "none",
     output: {
